@@ -1,4 +1,4 @@
-package net.javaguides.springboot.controller;
+package com.ksp.springboot.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import net.javaguides.springboot.exception.EmployeeNotFoundException;
-import net.javaguides.springboot.model.Employee;
-import net.javaguides.springboot.repository.EmployeeRepository;
+import com.ksp.springboot.exception.EmployeeNotFoundException;
+import com.ksp.springboot.model.Employee;
+import com.ksp.springboot.repository.EmployeeRepository;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
